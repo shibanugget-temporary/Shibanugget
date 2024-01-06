@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+body {
+    background-color: #fdfffe;
+    font-family: 'Noto Sans JP', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+.Title {
+    color: #556b2f;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 40px;
+}
+
+.blank{
+    margin: 100px;
+}
+
+.Line {
+    border: dashed #888;
+    border-width: 2px 0px 0px 0px;
+    margin: 20px;
+}
+
+.Exp {
+    color: #000000;
+    font-size: 18px;
+    margin: 40px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(37, 96, 26);
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+   
+  .menu-item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+  }
+
+  .icon {
+    margin-right: 10px; 
+  }
+
+  #header-title {
+    margin-right: auto;
+    margin-left: 60px;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .Link {
+    color: #13413a;
+    font-size: 20px;
+    margin: 40px;
+    font-weight: bold;
+  }
